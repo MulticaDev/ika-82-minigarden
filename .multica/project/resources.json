@@ -1,0 +1,14 @@
+{
+  "project_id": "88e92472-872e-4930-9c87-7ed8c4364f03",
+  "project_title": "Landingpage",
+  "resources": [
+    {
+      "id": "7892488b-9d2a-40b4-b0d8-13704185740f",
+      "resource_type": "github_repo",
+      "resource_ref": {
+        "url": "https://github.com/MulticaDev/ika-52-konsultan-hse-k3-perusahaan"
+      },
+      "label": "IKA-52 HSE/K3 Consultant Landing Page"
+    }
+  ]
+}
