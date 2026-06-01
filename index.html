@@ -1,21 +1,254 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiniGarden - Jasa Taman & Dekorasi Exterior</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiniGarden — Jasa Taman Minimalis, Mini Garden & Dekorasi Exterior</title>
+  <meta name="description" content="MiniGarden: jasa pembuatan taman minimalis, mini garden apartemen, vertical garden, indoor garden, dan dekorasi exterior. Gratis survey & konsultasi.">
+  <meta name="keywords" content="jasa taman minimalis, jasa pembuatan taman, tukang taman, vertical garden, mini garden apartemen, jasa taman rumah, dekorasi taman kantor">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://multicadev.github.io/ika-82-minigarden/">
+  <meta property="og:title" content="MiniGarden — Wujudkan Taman Impian Anda">
+  <meta property="og:description" content="Jasa taman minimalis, mini garden, indoor garden & dekorasi exterior profesional. Gratis survey & konsultasi.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://multicadev.github.io/ika-82-minigarden/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1200&auto=format&fit=crop">
+  <meta property="og:locale" content="id_ID">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MiniGarden — Wujudkan Taman Impian Anda">
+  <meta name="twitter:description" content="Jasa taman minimalis, mini garden, indoor garden & dekorasi exterior profesional. Gratis survey & konsultasi.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1200&auto=format&fit=crop">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"MiniGarden","description":"Jasa pembuatan taman minimalis, mini garden, indoor garden, dan dekorasi exterior profesional.","url":"https://multicadev.github.io/ika-82-minigarden/","telephone":"0812-9923-3099","areaServed":"Jabodetabek dan sekitarnya","priceRange":"Rp 1.000.000 - Rp 50.000.000","image":"https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1200&auto=format&fit=crop","address":{"@type":"PostalAddress","addressLocality":"Jakarta","addressCountry":"ID"},"sameAs":["https://wa.me/6281299233099"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Layanan MiniGarden","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Taman Rumah"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Mini Garden"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Indoor Garden"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Dekorasi Exterior"}}]}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config={theme:{extend:{colors:{forest:'#1B4332',olive:'#767956',sage:'#ACAF8A',cream:'#FAF8F5',terracotta:'#CB6E4C',body:'#2D2A1E'},fontFamily:{heading:['Playfair Display','serif'],body:['Inter','sans-serif']},animation:{'fade-up':'fadeUp 0.6s ease-out forwards'},keyframes:{fadeUp:{'0%':{opacity:'0',transform:'translateY(30px)'},'100%':{opacity:'1',transform:'translateY(0)'}}}}}}
+  </script>
+  <style>html{scroll-behavior:smooth}body{font-family:Inter,sans-serif;color:#2D2A1E;background:#FAF8F5}h1,h2,h3,h4{font-family:Playfair Display,serif}.gradient-overlay{background:linear-gradient(180deg,rgba(27,67,50,0.3) 0,rgba(27,67,50,0.85) 100%)}.card-hover{transition:transform .3s ease,box-shadow .3s ease}.card-hover:hover{transform:translateY(-6px);box-shadow:0 12px 32px rgba(0,0,0,.1)}.gallery-overlay{transition:opacity .3s ease}.gallery-item:hover .gallery-overlay{opacity:1}.gallery-item img{transition:transform .5s ease}.gallery-item:hover img{transform:scale(1.08)}.whatsapp-float{transition:transform .2s ease,box-shadow .2s ease;z-index:50}.whatsapp-float:hover{transform:scale(1.1);box-shadow:0 8px 24px rgba(37,211,102,.4)}@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}html{scroll-behavior:auto}}</style>
 </head>
-<body class="bg-white text-gray-800">
-    <header class="p-8 text-center">
-        <h1 class="text-4xl font-bold text-green-700">MiniGarden</h1>
-        <p class="mt-2 text-lg text-gray-600">Jasa Taman, Mini Garden, Indoor Garden & Dekorasi Exterior</p>
-    </header>
-    <main class="max-w-4xl mx-auto px-4">
-        <section class="py-12">
-            <h2 class="text-2xl font-semibold">Coming Soon</h2>
-            <p class="mt-4 text-gray-600">Landing page sedang dalam pengembangan.</p>
-        </section>
-    </main>
+<body>
+  <nav class="fixed top-0 left-0 right-0 z-40" id="navbar">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-4 flex items-center justify-between">
+      <a href="#" class="text-white font-heading text-xl sm:text-2xl font-bold tracking-wide">MiniGarden</a>
+      <div class="hidden md:flex items-center gap-8 text-white/90 text-sm font-medium">
+        <a href="#services" class="hover:text-white transition">Layanan</a>
+        <a href="#portfolio" class="hover:text-white transition">Portfolio</a>
+        <a href="#testimonials" class="hover:text-white transition">Testimoni</a>
+        <a href="#contact" class="hover:text-white transition">Kontak</a>
+      </div>
+      <a href="https://wa.me/6281299233099?text=Halo%20MiniGarden%2C%20saya%20ingin%20konsultasi%20gratis%20taman" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-2 bg-terracotta hover:bg-[#b85d3d] text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Konsultasi Gratis
+      </a>
+    </div>
+  </nav>
+
+  <header id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-forest">
+    <div class="absolute inset-0">
+      <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1920&auto=format&fit=crop" alt="Tropis taman hijau asri" class="w-full h-full object-cover opacity-40" fetchpriority="high">
+      <div class="absolute inset-0 gradient-overlay"></div>
+    </div>
+    <div class="relative z-10 max-w-4xl mx-auto px-5 text-center text-white" id="hero-content">
+      <h1 class="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">Wujudkan Taman Impian Anda</h1>
+      <p class="text-base sm:text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed">Kami hadirkan jasa taman minimalis, mini garden, dan dekorasi exterior profesional untuk hunian, kantor, dan properti Anda. <span class="text-white font-semibold">Gratis survey & konsultasi.</span></p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://wa.me/6281299233099?text=Halo%20MiniGarden%2C%20saya%20ingin%20konsultasi%20gratis%20taman" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-terracotta hover:bg-[#b85d3d] text-white font-semibold text-base sm:text-lg px-8 py-4 rounded-full transition-colors shadow-lg shadow-terracotta/25 w-full sm:w-auto justify-center">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Konsultasi Gratis via WhatsApp
+        </a>
+        <a href="#portfolio" class="text-white/80 hover:text-white border border-white/30 hover:border-white/60 px-8 py-4 rounded-full transition text-base font-medium w-full sm:w-auto text-center">Lihat Portfolio</a>
+      </div>
+      <div class="mt-12 flex items-center justify-center gap-6 text-white/60 text-xs sm:text-sm">
+        <span class="flex items-center gap-1.5"><svg class="w-4 h-4 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Survey Gratis</span>
+        <span class="flex items-center gap-1.5"><svg class="w-4 h-4 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Material Langsung Produsen</span>
+        <span class="flex items-center gap-1.5"><svg class="w-4 h-4 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>Tepat Waktu</span>
+      </div>
+    </div>
+  </header>
+
+  <section id="services" class="py-16 sm:py-20 lg:py-28 bg-cream">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+      <div class="text-center mb-14 sm:mb-18 reveal">
+        <span class="text-olive font-semibold text-sm tracking-widest uppercase">Layanan Kami</span>
+        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-body mt-3">Solusi Taman untuk Setiap Kebutuhan</h2>
+        <p class="text-gray-500 max-w-2xl mx-auto mt-4 text-base sm:text-lg">Dari rumah pribadi hingga properti komersial — kami hadirkan ruang hijau yang estetik, fungsional, dan tahan lama.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        <div class="bg-white rounded-2xl p-6 sm:p-8 card-hover reveal text-center">
+          <div class="w-16 h-16 mx-auto bg-forest/10 rounded-2xl flex items-center justify-center mb-5">
+            <svg class="w-8 h-8 text-forest" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+          </div>
+          <h3 class="font-heading text-xl font-semibold text-body mb-2">Taman Rumah</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Desain dan pembuatan taman hunian — minimalis, tropis, atau mediterania. Termasuk kolam, gazebo, dan jalur setapak.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 sm:p-8 card-hover reveal text-center">
+          <div class="w-16 h-16 mx-auto bg-olive/10 rounded-2xl flex items-center justify-center mb-5">
+            <svg class="w-8 h-8 text-olive" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/></svg>
+          </div>
+          <h3 class="font-heading text-xl font-semibold text-body mb-2">Mini Garden</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Taman mini untuk rooftop, balkon, dan teras apartemen. Solusi hijau hemat ruang tanpa mengorbankan estetika.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 sm:p-8 card-hover reveal text-center">
+          <div class="w-16 h-16 mx-auto bg-sage/30 rounded-2xl flex items-center justify-center mb-5">
+            <svg class="w-8 h-8 text-olive" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+          </div>
+          <h3 class="font-heading text-xl font-semibold text-body mb-2">Indoor Garden</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Vertical garden, taman indoor untuk kantor dan kafe. Biophilic design yang menyegarkan ruangan dan meningkatkan produktivitas.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 sm:p-8 card-hover reveal text-center">
+          <div class="w-16 h-16 mx-auto bg-terracotta/10 rounded-2xl flex items-center justify-center mb-5">
+            <svg class="w-8 h-8 text-terracotta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+          </div>
+          <h3 class="font-heading text-xl font-semibold text-body mb-2">Dekorasi Exterior</h3>
+          <p class="text-gray-500 text-sm leading-relaxed">Hardscape, pencahayaan taman, kolam hias, dan elemen dekoratif untuk mempercantik area luar properti Anda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="py-16 sm:py-20 lg:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+      <div class="text-center mb-14 sm:mb-18 reveal">
+        <span class="text-olive font-semibold text-sm tracking-widest uppercase">Portfolio</span>
+        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-body mt-3">Karya Terbaik Kami</h2>
+        <p class="text-gray-500 max-w-2xl mx-auto mt-4 text-base sm:text-lg">Setiap proyek adalah bukti komitmen kami terhadap kualitas, estetika, dan kepuasan klien.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
+        <div class="gallery-item relative overflow-hidden rounded-2xl aspect-[4/3] reveal">
+          <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64?q=80&w=800&auto=format&fit=crop" alt="Taman minimalis Jepang dengan batu dan tanaman hijau" class="w-full h-full object-cover" loading="lazy">
+          <div class="gallery-overlay absolute inset-0 bg-forest/70 flex items-end p-5 opacity-0"><div class="text-white"><h4 class="font-heading text-lg font-semibold">Taman Minimalis</h4><p class="text-white/70 text-sm">Perumahan BSD, Tangerang</p></div></div>
+        </div>
+        <div class="gallery-item relative overflow-hidden rounded-2xl aspect-[4/3] reveal">
+          <img src="https://images.unsplash.com/photo-1583324113626-70df0f4deaab?q=80&w=800&auto=format&fit=crop" alt="Taman belakang rumah dengan kursi taman dan tanaman rimbun" class="w-full h-full object-cover" loading="lazy">
+          <div class="gallery-overlay absolute inset-0 bg-forest/70 flex items-end p-5 opacity-0"><div class="text-white"><h4 class="font-heading text-lg font-semibold">Taman Belakang</h4><p class="text-white/70 text-sm">Cluster Greenland, Sentul</p></div></div>
+        </div>
+        <div class="gallery-item relative overflow-hidden rounded-2xl aspect-[4/3] reveal">
+          <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=800&auto=format&fit=crop" alt="Tanaman hias dalam ruangan modern" class="w-full h-full object-cover" loading="lazy">
+          <div class="gallery-overlay absolute inset-0 bg-forest/70 flex items-end p-5 opacity-0"><div class="text-white"><h4 class="font-heading text-lg font-semibold">Indoor Garden</h4><p class="text-white/70 text-sm">Co-working Space, Jakarta</p></div></div>
+        </div>
+        <div class="gallery-item relative overflow-hidden rounded-2xl aspect-[4/3] reveal">
+          <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=800&auto=format&fit=crop" alt="Taman villa modern dengan kolam dan pencahayaan" class="w-full h-full object-cover" loading="lazy">
+          <div class="gallery-overlay absolute inset-0 bg-forest/70 flex items-end p-5 opacity-0"><div class="text-white"><h4 class="font-heading text-lg font-semibold">Dekorasi Exterior</h4><p class="text-white/70 text-sm">Villa Puncak, Bogor</p></div></div>
+        </div>
+        <div class="gallery-item relative overflow-hidden rounded-2xl aspect-[4/3] reveal">
+          <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=800&auto=format&fit=crop" alt="Jalur taman tropis dengan pepohonan rimbun" class="w-full h-full object-cover" loading="lazy">
+          <div class="gallery-overlay absolute inset-0 bg-forest/70 flex items-end p-5 opacity-0"><div class="text-white"><h4 class="font-heading text-lg font-semibold">Tropis Garden</h4><p class="text-white/70 text-sm">Restaurant, Kemang</p></div></div>
+        </div>
+        <div class="gallery-item relative overflow-hidden rounded-2xl aspect-[4/3] reveal">
+          <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64?q=80&w=800&auto=format&fit=crop&sat=-100" alt="Taman vertikal pada dinding bangunan modern" class="w-full h-full object-cover" loading="lazy">
+          <div class="gallery-overlay absolute inset-0 bg-forest/70 flex items-end p-5 opacity-0"><div class="text-white"><h4 class="font-heading text-lg font-semibold">Vertical Garden</h4><p class="text-white/70 text-sm">Gedung Perkantoran, TB Simatupang</p></div></div>
+        </div>
+      </div>
+      <div class="text-center mt-10 reveal">
+        <p class="text-gray-400 text-sm">Foto oleh <a href="https://unsplash.com/@scottwebb" target="_blank" rel="noopener noreferrer" class="underline hover:text-olive">Scott Webb</a>, <a href="https://unsplash.com/@patrick_langwallner" target="_blank" rel="noopener noreferrer" class="underline hover:text-olive">Patrick Langwallner</a>, <a href="https://unsplash.com/@colinandmeg" target="_blank" rel="noopener noreferrer" class="underline hover:text-olive">Colin + Meg</a>, <a href="https://unsplash.com/@rarchitecture" target="_blank" rel="noopener noreferrer" class="underline hover:text-olive">R Architecture</a>, <a href="https://unsplash.com/@albertvincentwu" target="_blank" rel="noopener noreferrer" class="underline hover:text-olive">Albert Vincent Wu</a> — Unsplash</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="py-16 sm:py-20 lg:py-28 bg-cream">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+      <div class="text-center mb-14 sm:mb-18 reveal">
+        <span class="text-olive font-semibold text-sm tracking-widest uppercase">Testimoni</span>
+        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-body mt-3">Apa Kata Klien Kami</h2>
+        <p class="text-gray-500 max-w-2xl mx-auto mt-4 text-base sm:text-lg">Kepercayaan mereka adalah bukti nyata kualitas kerja kami.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        <div class="bg-white rounded-2xl p-6 sm:p-8 card-hover reveal">
+          <div class="flex items-center gap-4 mb-5">
+            <img src="https://ui-avatars.com/api/?name=Rina+Wahyuni&background=767956&color=fff&size=80&bold=true" alt="Foto profil Rina Wahyuni" class="w-14 h-14 rounded-full object-cover">
+            <div><h4 class="font-heading font-semibold text-body">Rina Wahyuni</h4><p class="text-gray-400 text-sm">Perumahan Bintaro, Tangerang</p><div class="flex text-yellow-500 text-sm mt-0.5">★★★★★</div></div>
+          </div>
+          <p class="text-gray-600 leading-relaxed italic">"Terima kasih MiniGarden! Taman belakang rumah kami jadi jauh lebih asri dan nyaman. Anak-anak jadi betah main di luar. Proses pengerjaan cepat dan materialnya berkualitas. Sangat recommended!"</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 sm:p-8 card-hover reveal">
+          <div class="flex items-center gap-4 mb-5">
+            <img src="https://ui-avatars.com/api/?name=Andi+Pratama&background=ACAF8A&color=fff&size=80&bold=true" alt="Foto profil Andi Pratama" class="w-14 h-14 rounded-full object-cover">
+            <div><h4 class="font-heading font-semibold text-body">Andi Pratama</h4><p class="text-gray-400 text-sm">Kopi Nusantara, Bandung</p><div class="flex text-yellow-500 text-sm mt-0.5">★★★★★</div></div>
+          </div>
+          <p class="text-gray-600 leading-relaxed italic">"Kami pasang vertical garden dan indoor plant di kafe. Suasananya langsung beda — pelanggan pada betah berlama-lama. Banyak yang foto-foto dan jadi konten Instagram!"</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 sm:p-8 card-hover reveal">
+          <div class="flex items-center gap-4 mb-5">
+            <img src="https://ui-avatars.com/api/?name=Dewi+Sartika&background=CB6E4C&color=fff&size=80&bold=true" alt="Foto profil Dewi Sartika" class="w-14 h-14 rounded-full object-cover">
+            <div><h4 class="font-heading font-semibold text-body">Dewi Sartika</h4><p class="text-gray-400 text-sm">Villa Kota Bunga, Puncak</p><div class="flex text-yellow-500 text-sm mt-0.5">★★★★★</div></div>
+          </div>
+          <p class="text-gray-600 leading-relaxed italic">"Villa kami jadi lebih aesthetic setelah taman dan exterior dekorasi dikerjakan MiniGarden. Tamu selalu memuji. Survey gratisnya sangat membantu kami menentukan konsep yang tepat."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 sm:py-20 lg:py-28 bg-forest relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10">
+      <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1920&auto=format&fit=crop" alt="" class="w-full h-full object-cover" aria-hidden="true">
+    </div>
+    <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div class="text-white reveal">
+          <span class="text-sage font-semibold text-sm tracking-widest uppercase">Hubungi Kami</span>
+          <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold mt-3 leading-tight">Dapatkan Konsultasi Gratis</h2>
+          <p class="text-white/70 mt-4 text-base sm:text-lg max-w-lg leading-relaxed">Isi form atau hubungi kami langsung via WhatsApp. Tim kami akan survey lokasi dan memberikan rekomendasi desain taman terbaik — <strong class="text-white">tanpa biaya sepeserpun.</strong></p>
+          <div class="mt-8 space-y-4">
+            <div class="flex items-center gap-4 text-white/80">
+              <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-sage" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              </div>
+              <div><p class="text-sm text-white/60">Telepon / WhatsApp</p><p class="font-semibold text-white text-lg">0812-9923-3099</p></div>
+            </div>
+            <div class="flex items-center gap-4 text-white/80">
+              <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-sage" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              </div>
+              <div><p class="text-sm text-white/60">Area Layanan</p><p class="font-semibold text-white">Jabodetabek & Sekitarnya</p></div>
+            </div>
+            <div class="flex items-center gap-4 text-white/80">
+              <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-sage" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+              </div>
+              <div><p class="text-sm text-white/60">Jaminan</p><p class="font-semibold text-white">Garansi pengerjaan & material</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl p-6 sm:p-8 lg:p-10 shadow-xl reveal">
+          <h3 class="font-heading text-2xl font-bold text-body mb-2">Form Konsultasi</h3>
+          <p class="text-gray-500 text-sm mb-6">Isi data Anda, tim kami akan menghubungi dalam 1x24 jam.</p>
+          <form action="https://formspree.io/f/xrbpbqqk" method="POST" class="space-y-5">
+            <div><label for="name" class="block text-sm font-medium text-body mb-1.5">Nama Lengkap</label><input type="text" id="name" name="name" required placeholder="Contoh: Budi Santoso" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-olive focus:ring-2 focus:ring-olive/20 outline-none transition text-sm"></div>
+            <div><label for="phone" class="block text-sm font-medium text-body mb-1.5">No. WhatsApp</label><input type="tel" id="phone" name="phone" required placeholder="Contoh: 081299233099" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-olive focus:ring-2 focus:ring-olive/20 outline-none transition text-sm"></div>
+            <div><label for="message" class="block text-sm font-medium text-body mb-1.5">Deskripsi Kebutuhan</label><textarea id="message" name="message" rows="4" required placeholder="Jelaskan taman impian Anda, ukuran lahan, dan budget..." class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-olive focus:ring-2 focus:ring-olive/20 outline-none transition text-sm resize-y"></textarea></div>
+            <button type="submit" class="w-full bg-terracotta hover:bg-[#b85d3d] text-white font-semibold py-3.5 rounded-xl transition-colors text-base">Kirim & Dapatkan Konsultasi Gratis</button>
+            <p class="text-center text-gray-400 text-xs">Data Anda aman dan tidak akan disebarkan ke pihak ketiga.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-[#0f2920] py-10 sm:py-14">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div><a href="#" class="text-white font-heading text-xl font-bold tracking-wide">MiniGarden</a><p class="text-white/40 text-sm mt-1">Wujudkan Taman Impian Anda</p></div>
+        <div class="flex items-center gap-6 text-sm text-white/50">
+          <a href="#services" class="hover:text-white transition">Layanan</a>
+          <a href="#portfolio" class="hover:text-white transition">Portfolio</a>
+          <a href="#testimonials" class="hover:text-white transition">Testimoni</a>
+          <a href="#contact" class="hover:text-white transition">Kontak</a>
+        </div>
+        <div class="text-white/40 text-xs text-center md:text-right"><p>&copy; 2026 MiniGarden. All rights reserved.</p><p class="mt-0.5">Jasa taman minimalis &bull; Tukang taman profesional</p></div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/6281299233099?text=Halo%20MiniGarden%2C%20saya%20ingin%20konsultasi%20gratis%20taman" target="_blank" rel="noopener noreferrer" class="whatsapp-float fixed bottom-6 right-6 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-colors" aria-label="Hubungi via WhatsApp">
+    <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded',function(){if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;var c=setInterval(function(){if(typeof gsap!=='undefined'){clearInterval(c);gsap.registerPlugin(ScrollTrigger);!function(){var t=gsap.timeline({defaults:{ease:'power3.out'}});t.from('#hero-content',{opacity:0,scale:.92,duration:1.2}).from('#hero-title',{opacity:0,y:40,duration:1},'-=0.8').from('#hero-subtitle',{opacity:0,y:30,duration:.8},'-=0.6');document.querySelectorAll('.reveal').forEach(function(e){gsap.from(e,{opacity:0,y:50,duration:.8,ease:'power2.out',scrollTrigger:{trigger:e,start:'top 85%',toggleActions:'play none none none'}})});gsap.to(document.getElementById('navbar'),{backgroundColor:'rgba(27,67,50,0.95)',backdropFilter:'blur(8px)',boxShadow:'0 2px 20px rgba(0,0,0,0.15)',scrollTrigger:{trigger:document.body,start:'100px top',toggleActions:'play none none reverse'}})}()}},100)})
+  </script>
 </body>
 </html>
