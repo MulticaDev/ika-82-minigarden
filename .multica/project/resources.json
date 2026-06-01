@@ -6,8 +6,9 @@
       "url": "https://github.com/MulticaDev/ika-82-minigarden"
     },
     {
-      "type": "github_pages",
-      "url": "https://multicadev.github.io/ika-82-minigarden/"
+      "type": "cloudflare_pages",
+      "url": "https://ika-82-minigarden.pages.dev",
+      "note": "Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID to GitHub secrets to enable auto-deploy"
     }
   ]
 }
